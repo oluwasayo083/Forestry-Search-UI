@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forestry Search UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🔹 Centered Nav Bar -->
+<!-- 🔹 Centered Nav Bar -->
+<nav class="navbar">
+  <ul class="nav-content">
+    <li class="logo">🌲 Forestry</li>
+    <li><a href="#">My Feed</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Weather</a></li>
+    <li><a href="#">Entertainment</a></li>
+  </ul>
+</nav>
+
+
+  <!-- 🔹 Search and Filter Section -->
+  <div class="search-container">
+    <h1>Explore Forest World</h1>
+   <div class="search-bar">
+  <input type="text" placeholder="Search forest articles..." />
+  
+  <span class="icon cam">📷</span>
+</div>
+
+
+    <div class="filters">
+      <select>
+        <option>Location</option>
+        <option>Amazon</option>
+        <option>Siberia</option>
+      </select>
+      <select>
+        <option>Forest Type</option>
+        <option>Tropical</option>
+        <option>Boreal</option>
+      </select>
+      <select>
+        <option>Health Status</option>
+        <option>Healthy</option>
+        <option>Endangered</option>
+      </select>
+    </div>
+
+    <div class="results-placeholder">
+      <p>Search results will appear here...</p>
+    </div>
+  </div>
+
+</body>
+</html>
